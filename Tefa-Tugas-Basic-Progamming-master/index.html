@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Kelompok 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Section Navbar -->
+  <nav>
+    <div class="logo">
+      <h4>KELOMPOK 2</h4>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home-section" onclick="onHome()">Home</a></li>
+      <li><a href="#profile-section" onclick="onProfile()">Profil</a></li>
+      <li><a href="#contact-section" onclick="onContact()">Kontak</a></li>
+    </ul>
+    <div class="nav-bar ">
+      <div class="baris1"></div>
+      <div class="baris2"></div>
+      <div class="baris3"></div>
+    </div>
+  </nav>
+  <!-- End Section Navbar -->
+  <!-- Section Image -->
+  <div class="box">
+    <div class="row">
+      <div class="col-1">
+        <h2>Selamat Datang Di <br>
+          <p>Tugas Tefa Kelompok Kami</p>
+        </h2>
+        <h3>(Semoga Nilai Tugas 100 Aminnn!!)</h3>
+        <button type="button">Lets Check <img src="./asset/arrow.png" alt=""></button>
+      </div>
+      <div class="col-2">
+        <img src="./asset/hacker.png" alt="" class="image">
+      </div>
+    </div>
+  </div>
+  <!-- End Section Image -->
+  <!-- Section Main Content -->
+  <main class="main">
+    <h1>Content</h1>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="menu-col-1">
+          <ul>
+            <li>
+              <p>Pilih Menu :</p>
+            </li>
+            <li><a id="home-button" href="#home-section" class="button select" onclick="onHome()">Home</a></li>
+            <li><a id="profile-button" href="#profile-section" class="button" onclick="onProfile()">Profil</a></li>
+            <li><a id="contact-button" href="#contact-section" class="button" onclick="onContact()">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="menu-col-2">
+          <!-- Section Home -->
+          <section id="home-section" class="home">
+            <div class="container">
+              <h1>Ini Judul</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged.
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged equalers wream tuywe
+                hen an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged.
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remahag rengginang two five hen an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remaining essentially unchanged.
+                when an unknown printer took a galley of type and scrambled it to make
+                a type specimen book. It has survived not only five centuries, but also the
+                leap into electronic typesetting, remahag rengginang two five It has survived not only five centuries, but also the
+                leap into electronic typesetting, remahag rengginang two five hen an unknown printer took a galley of type and scrambleda type specimen book. It has survived not only five centuries, but also the
+                leap into
+              </p>
+            </div>
+          </section>
+          <!-- End Section Home -->
+          <!-- Section Profile -->
+          <section id="profile-section" class="profile hide">
+            <h1 align="center">BIODATA DIRI</h1>
+            <table width="745" border="1" cellspacing="0" cellpadding="5" align="center">
+              <tr align="center" bgcolor="#178fd6">
+                <td colspan="2" width="174">IDENTITAS DIRI</td>
+                <td width="232">FOTO</td>
+              </tr>
+              <tr>
+                <td>Nama</td>
+                <td>Fikri Alfaraby</td>
+                <td rowspan="10" align="center"><img src="./asset/me.jpg" width="210"
+                    height="360"></td>
+              </tr>
+              <tr>
+                <td>Umur</td>
+                <td>16 Tahun</td>
+              </tr>
+              <tr>
+              <tr>
+                <td>Jenis Kelamin</td>
+                <td>Laki-laki</td>
+              </tr>
+              <tr>
+                <td>Tempat/Tanggal Lahir</td>
+                <td>MOJOKERTO, 23 JULI 2005</td>
+              </tr>
+              <tr>
+                <td>Alamat</td>
+                <td>Griya Permata Meri Block A6 NO.42, Mojokerto - Jawa Timur</td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td>Siswa</td>
+              </tr>
+              <td>Sekolah</td>
+              <td>SMK Telkom Malang</td>
+              </tr>
+              <tr>
+                <td>Jurusan</td>
+                <td>Rekaya Perangkat Lunak</td>
+              </tr>
+              <tr>
+                <td>Kelas</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>Hobi</td>
+                <td>Ngoding</td>
+              </tr>
+            </table>
+          </section>
+          <!--End Section Profile -->
+          <!-- Section Contact -->
+          <section class="contact hide" id="contact-section">
+            <div class="container">
+              <h2>Contact Form</h2>
+              <form action="">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama kamu..">
+            
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email kamu..">
+            
+                <label for="country">Asal Negara</label>
+                <select id="country" name="country">
+                  <option value="australia">Indonesia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+            
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" placeholder="Ketik sesuatu.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit" onclick="onSumbit()">
+          </section>
+          <!-- End Section Contact -->
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- End Section Main Content -->
+  <!-- Footer -->
+  <footer>
+    <p>Copyright@2022 Kelompok 2 SMK Telkom Malang</p>
+  </footer>
+  <!-- End Footer -->
+  <script src="app.js"></script>
+
+</body>
+
+</html>
